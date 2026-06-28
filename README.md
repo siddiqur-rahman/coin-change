@@ -31,3 +31,36 @@ For `amount = 8`, one optimal result is:
 - Use the coin denominations **1, 2, and 5** only.
 - Always return the combination that uses the **fewest coins**.
 - Assume the amount is a non-negative integer.
+
+## TDD Pair Programming Session
+### Participants
+- Siddiqur Rahman
+- Porag Sarkar 
+
+### Phase 1 - Setup
+- Choosing the language
+- Create project structure 
+- Confirm the test runner
+
+### Phase 2 - Design Thinking (Before any code)
+- Agree on method signature
+- Identify the test cases
+- Order them
+
+### Phase 3 - TDD Cycles (1 per test case)
+- For each test case, we will repeat the following step
+```
+- RED
+ -> Write a failling test
+ -> Run it - confirm it fails for the right reason
+
+- GREEN
+  -> Write miminum code to pass
+  -> Run it - confirm it passes
+  -> Along with all the previous test case still pass
+
+- REFACTOR
+  -> Clean up code to ensure clean code structure
+  -> Bhaviour remains the same
+  -> Move to next test
+``` 
